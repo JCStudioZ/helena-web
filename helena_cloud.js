@@ -6,7 +6,14 @@
 // Paste the web app config from the Firebase console here. These values are
 // public client identifiers (they appear in every player's browser); access
 // control lives in the Firestore security rules, not in their secrecy.
-const firebaseConfig = {};
+const firebaseConfig = {
+  apiKey: "AIzaSyDDX2CDaliW0NJjhTK4mXysiulYEDnR7rU",
+  authDomain: "helena-e5527.firebaseapp.com",
+  projectId: "helena-e5527",
+  storageBucket: "helena-e5527.firebasestorage.app",
+  messagingSenderId: "759535110768",
+  appId: "1:759535110768:web:ebdcd571b359afdb5982b5",
+};
 
 window.HelenaCloud = { configured: Object.keys(firebaseConfig).length > 0 };
 
