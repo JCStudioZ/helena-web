@@ -69,6 +69,16 @@ if (window.HelenaCloud.configured) {
         });
     };
 
+    // Detach this device: the Google account's cloud copy stays for other
+    // devices, and this device continues on a fresh anonymous identity.
+    // (Named signOutCloud because Godot's JS bridge can shadow "signOut".)
+    cloud.signOutCloud = (cb) => {
+      authM.signOut(auth)
+        .then(() => authM.signInAnonymously(auth))
+        .then((r) => cb(userJson(r.user)))
+        .catch(() => cb(JSON.stringify({ uid: "", anon: true, label: "" })));
+    };
+
     cloud.pull = (cb) => {
       fsM.getDoc(fsM.doc(db, "users", auth.currentUser.uid))
         .then((snap) => cb(snap.exists() ? JSON.stringify(snap.data()) : ""))
