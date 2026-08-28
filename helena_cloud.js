@@ -43,7 +43,7 @@ if (window.HelenaCloud.configured) {
         if (user) cb(userJson(user));
         else authM.signInAnonymously(auth)
           .then((r) => cb(userJson(r.user)))
-          .catch(() => cb(JSON.stringify({ uid: "", anon: true, label: "" })));
+          .catch((e) => cb(JSON.stringify({ uid: "", anon: true, label: "", err: e.code || String(e) })));
       });
     };
 
@@ -76,13 +76,13 @@ if (window.HelenaCloud.configured) {
       authM.signOut(auth)
         .then(() => authM.signInAnonymously(auth))
         .then((r) => cb(userJson(r.user)))
-        .catch(() => cb(JSON.stringify({ uid: "", anon: true, label: "" })));
+        .catch((e) => cb(JSON.stringify({ uid: "", anon: true, label: "", err: e.code || String(e) })));
     };
 
     cloud.pull = (cb) => {
       fsM.getDoc(fsM.doc(db, "users", auth.currentUser.uid))
         .then((snap) => cb(snap.exists() ? JSON.stringify(snap.data()) : ""))
-        .catch(() => cb(""));
+        .catch((e) => cb(JSON.stringify({ __helena_error: e.code || String(e) })));
     };
 
     cloud.push = (json, cb) => {
