@@ -15,9 +15,19 @@ const firebaseConfig = {
   appId: "1:759535110768:web:ebdcd571b359afdb5982b5",
 };
 
-window.HelenaCloud = { configured: Object.keys(firebaseConfig).length > 0 };
+const configured = Object.keys(firebaseConfig).length > 0;
+const pendingCalls = [];
+window.HelenaCloud = { configured, ready: false };
 
-if (window.HelenaCloud.configured) {
+// Godot can finish booting before the three Firebase ES modules arrive.
+// Keep every bridge method callable immediately and replay it once the real
+// implementation exists; this avoids a startup race that previously left
+// Settings stuck on "Syncing…" with `ensureAnon is not a function`.
+for (const method of ["ensureAnon", "linkGoogle", "signOutCloud", "pull", "push"]) {
+  window.HelenaCloud[method] = (...args) => pendingCalls.push([method, args]);
+}
+
+if (configured) {
   const load = (m) => import(`https://www.gstatic.com/firebasejs/10.12.2/${m}`);
   Promise.all([
     load("firebase-app.js"),
@@ -90,5 +100,17 @@ if (window.HelenaCloud.configured) {
         .then(() => cb("ok"))
         .catch((e) => cb("err:" + (e.code || e)));
     };
+
+    cloud.ready = true;
+    for (const [method, args] of pendingCalls.splice(0)) cloud[method](...args);
+  }).catch((error) => {
+    const cloud = window.HelenaCloud;
+    const code = error?.code || String(error);
+    cloud.ensureAnon = (cb) => cb(JSON.stringify({ uid: "", anon: true, label: "", err: code }));
+    cloud.linkGoogle = (cb) => cb(JSON.stringify({ ok: false, err: code }));
+    cloud.signOutCloud = (cb) => cb(JSON.stringify({ uid: "", anon: true, label: "", err: code }));
+    cloud.pull = (cb) => cb(JSON.stringify({ __helena_error: code }));
+    cloud.push = (_json, cb) => cb("err:" + code);
+    for (const [method, args] of pendingCalls.splice(0)) cloud[method](...args);
   });
 }
