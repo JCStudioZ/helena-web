@@ -22,15 +22,20 @@
 </head>
 <body><main>
   <h1>Helena Privacy</h1>
-  <p>Last updated: August 25, 2026</p>
+  <p>Last updated: September 13, 2026</p>
   <div class="card">
     <h2>What Helena stores</h2>
     <p>Helena saves puzzle progress and preferences on your device. If you enable Google cloud sync, it also stores your game progress, settings, practice bests, daily results, an account identifier, and your Google account label in Firebase so your devices can stay in sync.</p>
+    <p>Cat postcard collection progress is part of your saved game progress. It contains a small, capped set of completed-board fingerprints and which postcards you have viewed. This is separate from optional local play statistics. Story secret endings and your keepsake shelf choices are also included in progress sync.</p>
+    <p>Optional puzzle difficulty ratings (Easy, Just right, or Hard) stay on your device and are not uploaded. Helena remembers your answer for each game and difficulty tier so it does not ask again at that tier, even after older play history expires. Clearing local statistics also clears these answers. Postcard images and challenge links are generated when you choose to save or copy them.</p>
+    <p>Saved puzzles are device-local bookmarks containing the exact puzzle question, its starting state, game type, difficulty, and save date (up to 30 boards). Optional names and short personal notes are stored with these bookmarks so you can find and revisit them. They are not uploaded to cloud sync. Optional trial checkpoints are stored with unfinished boards so you can return to a point after reopening a game. Clearing browser or app storage removes these local boards.</p>
+    <p>Practice Mix saves one unfinished session, up to 8 named sets of game choices, and the last 12 completed sessions on this device. Session results include the games, difficulty, play time and whether hints or applied help were used. They stay local and are separate from optional play statistics. Resetting local progress removes the unfinished mix and recent session results. Named game choices are kept; remove them individually in Saved mixes.</p>
     <h2>Your choices</h2>
     <ul>
       <li>Cloud sync is optional; the game works with local saves.</li>
       <li>You can sign out in Settings. Signing out does not delete the existing cloud copy.</li>
       <li>You can reset local progress from Settings.</li>
+      <li>Saved puzzle bookmarks are kept when you reset progress. Remove them individually from Practice → Saved.</li>
     </ul>
     <h2>Service providers</h2>
     <p>Google Firebase provides authentication and cloud storage. Their handling of account and diagnostic data is governed by Google's privacy terms. The current web build does not run an advertising SDK.</p>
