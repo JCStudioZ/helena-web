@@ -1,0 +1,745 @@
+{
+	"assets": {
+		"res://assets/album/atoms_mastery-v1.png": {
+			"bytes": 275976,
+			"sha256": "76acc1b4515576532398868a67df470a3e970dd86f5db941fca6e9db02542f70",
+			"url": "assets/76acc1b4515576532398868a67df470a3e970dd86f5db941fca6e9db02542f70.pck"
+		},
+		"res://assets/album/blooms-v1.png": {
+			"bytes": 184348,
+			"sha256": "b0a4428d6bfc94c15ac0464372223f9f584848cb249bcfef10fc2672f185b4d1",
+			"url": "assets/b0a4428d6bfc94c15ac0464372223f9f584848cb249bcfef10fc2672f185b4d1.pck"
+		},
+		"res://assets/album/blooms_mastery-v1.png": {
+			"bytes": 336940,
+			"sha256": "afe838f96e3484dd337ff4358f559df1d6a47dec524fa9efa5c7eb6a9a265632",
+			"url": "assets/afe838f96e3484dd337ff4358f559df1d6a47dec524fa9efa5c7eb6a9a265632.pck"
+		},
+		"res://assets/album/galaxies-v1.png": {
+			"bytes": 136000,
+			"sha256": "d596364ff17f71947cc477f1597355296cd9b55af6bd8c82dffc237c2772f19e",
+			"url": "assets/d596364ff17f71947cc477f1597355296cd9b55af6bd8c82dffc237c2772f19e.pck"
+		},
+		"res://assets/album/mambo-v1.png": {
+			"bytes": 156568,
+			"sha256": "8603ca47e5a12a6d9964b39f1a3aa81e6e01d18d4c65b7871e3ae2930ed0adb3",
+			"url": "assets/8603ca47e5a12a6d9964b39f1a3aa81e6e01d18d4c65b7871e3ae2930ed0adb3.pck"
+		},
+		"res://assets/album/numbers_grandmaster-v1.png": {
+			"bytes": 264372,
+			"sha256": "f538da093284aaa48b12b07a87a834b832f888e8a58da867e4b0b86ce79d1cb0",
+			"url": "assets/f538da093284aaa48b12b07a87a834b832f888e8a58da867e4b0b86ce79d1cb0.pck"
+		},
+		"res://assets/album/perfect_daily-v1.png": {
+			"bytes": 317064,
+			"sha256": "f5786bce2eee64afb0648a66b148e69a28d5d8b62bd663820435ce105c970cb6",
+			"url": "assets/f5786bce2eee64afb0648a66b148e69a28d5d8b62bd663820435ce105c970cb6.pck"
+		},
+		"res://assets/album/pipes-v1.png": {
+			"bytes": 199320,
+			"sha256": "8000243e21d53ea28e81a06ba34737278dd717af922317df656d754438ec7d51",
+			"url": "assets/8000243e21d53ea28e81a06ba34737278dd717af922317df656d754438ec7d51.pck"
+		},
+		"res://assets/album/sudoku-v1.png": {
+			"bytes": 184860,
+			"sha256": "6375a797440149c692411634337559bacce6f07bf2502146656d55c0c53173d6",
+			"url": "assets/6375a797440149c692411634337559bacce6f07bf2502146656d55c0c53173d6.pck"
+		},
+		"res://assets/album/sudoku_mastery-v1.png": {
+			"bytes": 253324,
+			"sha256": "e3cb351d3ddbe361499a64c74da0aa9e1c1e1c9b27e705a22072146323b28f37",
+			"url": "assets/e3cb351d3ddbe361499a64c74da0aa9e1c1e1c9b27e705a22072146323b28f37.pck"
+		},
+		"res://assets/album/thermometers-v1.png": {
+			"bytes": 177736,
+			"sha256": "a0fc3a8080e6b513f10fa3487ef939a785f253b6fa2311c70355ffa756e98fec",
+			"url": "assets/a0fc3a8080e6b513f10fa3487ef939a785f253b6fa2311c70355ffa756e98fec.pck"
+		},
+		"res://assets/album/visual_grandmaster-v1.png": {
+			"bytes": 273396,
+			"sha256": "c46e8761d0a4fde251e6eadd5c572dbf0673f1d1304523950c7cd6ede03ab389",
+			"url": "assets/c46e8761d0a4fde251e6eadd5c572dbf0673f1d1304523950c7cd6ede03ab389.pck"
+		},
+		"res://assets/audio/little_steps.ogg": {
+			"bytes": 201256,
+			"sha256": "23b2502edb08bea9158676d491063a92592144bd187305ce97e51d75d1f89535",
+			"url": "assets/23b2502edb08bea9158676d491063a92592144bd187305ce97e51d75d1f89535.pck"
+		},
+		"res://assets/audio/music/freezing_cold.ogg": {
+			"bytes": 867376,
+			"sha256": "8da484c27f4bd3f913250a22588a092ddf1e779d2bc4f115e59a880aa7c0f737",
+			"url": "assets/8da484c27f4bd3f913250a22588a092ddf1e779d2bc4f115e59a880aa7c0f737.pck"
+		},
+		"res://assets/audio/music/home_again.ogg": {
+			"bytes": 920872,
+			"sha256": "3438a024927369a698a414a44b8683102640bd6dd20e22f77380b5921af40260",
+			"url": "assets/3438a024927369a698a414a44b8683102640bd6dd20e22f77380b5921af40260.pck"
+		},
+		"res://assets/audio/music/vaporware.ogg": {
+			"bytes": 1908712,
+			"sha256": "61bad698c49b00794e19d155de722ab41a483a3cc09508c895430ed7460ad5f1",
+			"url": "assets/61bad698c49b00794e19d155de722ab41a483a3cc09508c895430ed7460ad5f1.pck"
+		},
+		"res://assets/audio/music/warm_fireplace.ogg": {
+			"bytes": 910192,
+			"sha256": "bd87dd970ee6a3da97ef741e72a7ae3a91aa9a987096678bc9246d02f4ccc2c2",
+			"url": "assets/bd87dd970ee6a3da97ef741e72a7ae3a91aa9a987096678bc9246d02f4ccc2c2.pck"
+		},
+		"res://assets/chapters/clockwork_atelier/room_0.webp": {
+			"bytes": 306220,
+			"sha256": "79fd3617d1941e3f0304acf1a0c9c2070ef4e5f9b6f238b25d647919db4759bc",
+			"url": "assets/79fd3617d1941e3f0304acf1a0c9c2070ef4e5f9b6f238b25d647919db4759bc.pck"
+		},
+		"res://assets/chapters/clockwork_atelier/room_1.webp": {
+			"bytes": 429452,
+			"sha256": "5ff2292ae000a38ad853ea21998e724d34fcd035686b49897ce97b561e307741",
+			"url": "assets/5ff2292ae000a38ad853ea21998e724d34fcd035686b49897ce97b561e307741.pck"
+		},
+		"res://assets/chapters/clockwork_atelier/room_2.webp": {
+			"bytes": 402572,
+			"sha256": "519e9dcb045ef9c9497c0023b7d0954605f51744a69404cc028019cf2431db86",
+			"url": "assets/519e9dcb045ef9c9497c0023b7d0954605f51744a69404cc028019cf2431db86.pck"
+		},
+		"res://assets/chapters/clockwork_atelier/room_3.webp": {
+			"bytes": 410892,
+			"sha256": "301ebb9675d30749a0bc29aa0deef940fd42a9a87805022f6b3123aad40f0c32",
+			"url": "assets/301ebb9675d30749a0bc29aa0deef940fd42a9a87805022f6b3123aad40f0c32.pck"
+		},
+		"res://assets/chapters/cloudstep_peaks/room_0.webp": {
+			"bytes": 508876,
+			"sha256": "f82e33c7d2544e9bee14c05296c1b60507bdac7d468b6352da2df05bde9f3d2f",
+			"url": "assets/f82e33c7d2544e9bee14c05296c1b60507bdac7d468b6352da2df05bde9f3d2f.pck"
+		},
+		"res://assets/chapters/cloudstep_peaks/room_1.webp": {
+			"bytes": 481612,
+			"sha256": "3a8f53f7128abd4c4f7d7e80339b82ab45e19b3c3aeb5ad2629cfb20d4dd86cd",
+			"url": "assets/3a8f53f7128abd4c4f7d7e80339b82ab45e19b3c3aeb5ad2629cfb20d4dd86cd.pck"
+		},
+		"res://assets/chapters/cloudstep_peaks/room_2.webp": {
+			"bytes": 537772,
+			"sha256": "efed9560b7b5be99356576d53feecaea738e83cc571a0a741f2e2d67eb952fcb",
+			"url": "assets/efed9560b7b5be99356576d53feecaea738e83cc571a0a741f2e2d67eb952fcb.pck"
+		},
+		"res://assets/chapters/cloudstep_peaks/room_3.webp": {
+			"bytes": 509900,
+			"sha256": "4826afbb6b734c486c8e0a7ac133337a3d6c401588ef1ce043ff8f727816367a",
+			"url": "assets/4826afbb6b734c486c8e0a7ac133337a3d6c401588ef1ce043ff8f727816367a.pck"
+		},
+		"res://assets/chapters/covers/clockwork_atelier/room_0.webp": {
+			"bytes": 113172,
+			"sha256": "36ec7f64ba5db75c519af72c4711fadcb0cf54d635f4c27c8148a00604801ff5",
+			"url": "assets/36ec7f64ba5db75c519af72c4711fadcb0cf54d635f4c27c8148a00604801ff5.pck"
+		},
+		"res://assets/chapters/covers/clockwork_atelier/room_1.webp": {
+			"bytes": 152340,
+			"sha256": "cb9acefac8247ea2d9ca9059f2deec6803a2c010672486997cf1cd02dd38125e",
+			"url": "assets/cb9acefac8247ea2d9ca9059f2deec6803a2c010672486997cf1cd02dd38125e.pck"
+		},
+		"res://assets/chapters/covers/clockwork_atelier/room_2.webp": {
+			"bytes": 146580,
+			"sha256": "3f5d31ee6a3738c7085c1f6c60d54d6219090a307b1a7a6d2a6f52c0c22f24a2",
+			"url": "assets/3f5d31ee6a3738c7085c1f6c60d54d6219090a307b1a7a6d2a6f52c0c22f24a2.pck"
+		},
+		"res://assets/chapters/covers/clockwork_atelier/room_3.webp": {
+			"bytes": 152756,
+			"sha256": "55e50819b6e73af1b4495a293840c6d45f87283ba50b8c9b9f970d1971829aa9",
+			"url": "assets/55e50819b6e73af1b4495a293840c6d45f87283ba50b8c9b9f970d1971829aa9.pck"
+		},
+		"res://assets/chapters/covers/cloudstep_peaks/room_0.webp": {
+			"bytes": 174356,
+			"sha256": "dfd8864d1756ab94974c6c9d27b5da664f4d7f98c8d51a0b83330bf7b1f1b9f5",
+			"url": "assets/dfd8864d1756ab94974c6c9d27b5da664f4d7f98c8d51a0b83330bf7b1f1b9f5.pck"
+		},
+		"res://assets/chapters/covers/cloudstep_peaks/room_1.webp": {
+			"bytes": 165716,
+			"sha256": "1dfab0ac3d2a2683f19b22cdb1a2fb00c42d7908b973f7e7c16477773ab940e9",
+			"url": "assets/1dfab0ac3d2a2683f19b22cdb1a2fb00c42d7908b973f7e7c16477773ab940e9.pck"
+		},
+		"res://assets/chapters/covers/cloudstep_peaks/room_2.webp": {
+			"bytes": 182132,
+			"sha256": "88d64bc0e4e086b0c29db1ed1936e463f686c87738327b7bd8e360b1feea14d8",
+			"url": "assets/88d64bc0e4e086b0c29db1ed1936e463f686c87738327b7bd8e360b1feea14d8.pck"
+		},
+		"res://assets/chapters/covers/cloudstep_peaks/room_3.webp": {
+			"bytes": 176436,
+			"sha256": "8c8f7f50dab933e7f7448db70dc2137517131342a6a2e1be98d6f090f4c390fd",
+			"url": "assets/8c8f7f50dab933e7f7448db70dc2137517131342a6a2e1be98d6f090f4c390fd.pck"
+		},
+		"res://assets/chapters/covers/lantern_harbor/room_0.webp": {
+			"bytes": 129328,
+			"sha256": "1133f60511d248ce29a3f863979a717d3ed0a1c81e39a084fa56da62c923f1b8",
+			"url": "assets/1133f60511d248ce29a3f863979a717d3ed0a1c81e39a084fa56da62c923f1b8.pck"
+		},
+		"res://assets/chapters/covers/lantern_harbor/room_1.webp": {
+			"bytes": 171600,
+			"sha256": "d4bf91bf5b24795882e72ea0e51c6997fd313c9a9df87264e0fa70b3680c76cd",
+			"url": "assets/d4bf91bf5b24795882e72ea0e51c6997fd313c9a9df87264e0fa70b3680c76cd.pck"
+		},
+		"res://assets/chapters/covers/lantern_harbor/room_2.webp": {
+			"bytes": 162032,
+			"sha256": "5a06877574682f6e6e3bb5ace230be972f3463c0c6249a7f67f8c64f61a8fa81",
+			"url": "assets/5a06877574682f6e6e3bb5ace230be972f3463c0c6249a7f67f8c64f61a8fa81.pck"
+		},
+		"res://assets/chapters/covers/lantern_harbor/room_3.webp": {
+			"bytes": 152560,
+			"sha256": "dea747c7678068f828abb8ebc5714f977c5f478b2eaf567826c8937aded614da",
+			"url": "assets/dea747c7678068f828abb8ebc5714f977c5f478b2eaf567826c8937aded614da.pck"
+		},
+		"res://assets/chapters/covers/moonlit_observatory/room_0.webp": {
+			"bytes": 134712,
+			"sha256": "31dc6509a94c261a9e19edbbc2447b7aeb1fe185bc614b6f9947802637b9a145",
+			"url": "assets/31dc6509a94c261a9e19edbbc2447b7aeb1fe185bc614b6f9947802637b9a145.pck"
+		},
+		"res://assets/chapters/covers/moonlit_observatory/room_1.webp": {
+			"bytes": 125496,
+			"sha256": "3282aea5152c0b4b3531288b1e50150bf56795ac04f0eb5b985179358d3f1183",
+			"url": "assets/3282aea5152c0b4b3531288b1e50150bf56795ac04f0eb5b985179358d3f1183.pck"
+		},
+		"res://assets/chapters/covers/moonlit_observatory/room_2.webp": {
+			"bytes": 136504,
+			"sha256": "86d37617cd9446ebc2321a6888704e75c30891902647b53676eb38114bbdfb0d",
+			"url": "assets/86d37617cd9446ebc2321a6888704e75c30891902647b53676eb38114bbdfb0d.pck"
+		},
+		"res://assets/chapters/covers/moonlit_observatory/room_3.webp": {
+			"bytes": 155224,
+			"sha256": "0d82479a63e58cdc9befc0cd29087b908836fcbfa054dc8c950a65fd927a1c6b",
+			"url": "assets/0d82479a63e58cdc9befc0cd29087b908836fcbfa054dc8c950a65fd927a1c6b.pck"
+		},
+		"res://assets/chapters/covers/night_greenhouse/room_0.webp": {
+			"bytes": 135732,
+			"sha256": "6f7eeda46f26a7a08c29b90592b08c03697439ebc56d713c1fdc3a8ed71bf071",
+			"url": "assets/6f7eeda46f26a7a08c29b90592b08c03697439ebc56d713c1fdc3a8ed71bf071.pck"
+		},
+		"res://assets/chapters/covers/night_greenhouse/room_1.webp": {
+			"bytes": 143252,
+			"sha256": "afacc15e48307c736ca1855dbc8d8bdde2df84c0fa450bd1d3041ef61818e63f",
+			"url": "assets/afacc15e48307c736ca1855dbc8d8bdde2df84c0fa450bd1d3041ef61818e63f.pck"
+		},
+		"res://assets/chapters/covers/night_greenhouse/room_2.webp": {
+			"bytes": 147444,
+			"sha256": "f4641b343822000125d8af146744b5f9ecae5605e2500378af880d5807eb16ac",
+			"url": "assets/f4641b343822000125d8af146744b5f9ecae5605e2500378af880d5807eb16ac.pck"
+		},
+		"res://assets/chapters/covers/night_greenhouse/room_3.webp": {
+			"bytes": 157300,
+			"sha256": "19fa9828012e3d84ad66fb4329a780c72241e4803cee79ccbf18bd8571281573",
+			"url": "assets/19fa9828012e3d84ad66fb4329a780c72241e4803cee79ccbf18bd8571281573.pck"
+		},
+		"res://assets/chapters/covers/starlit_caravan/room_0.webp": {
+			"bytes": 115636,
+			"sha256": "ca97206cf86ba70aec54671e552dad11f5cf841dc3dd7469d47a056e0210d962",
+			"url": "assets/ca97206cf86ba70aec54671e552dad11f5cf841dc3dd7469d47a056e0210d962.pck"
+		},
+		"res://assets/chapters/covers/starlit_caravan/room_1.webp": {
+			"bytes": 148980,
+			"sha256": "6805c90355d64484b90ddc0ad8874fb4a7b25e973a96ab3ab1f86c33b723bdf6",
+			"url": "assets/6805c90355d64484b90ddc0ad8874fb4a7b25e973a96ab3ab1f86c33b723bdf6.pck"
+		},
+		"res://assets/chapters/covers/starlit_caravan/room_2.webp": {
+			"bytes": 145332,
+			"sha256": "83899f0a52855a6a45eadd5e8867ce0fc22dfc43166e8dae39d6bf761de2b31d",
+			"url": "assets/83899f0a52855a6a45eadd5e8867ce0fc22dfc43166e8dae39d6bf761de2b31d.pck"
+		},
+		"res://assets/chapters/covers/starlit_caravan/room_3.webp": {
+			"bytes": 169012,
+			"sha256": "098f47583074e929b1219037c1fa0350d7ba72f835dada3585a274d1d57622e4",
+			"url": "assets/098f47583074e929b1219037c1fa0350d7ba72f835dada3585a274d1d57622e4.pck"
+		},
+		"res://assets/chapters/covers/tideglass_reef/room_0.webp": {
+			"bytes": 153648,
+			"sha256": "8bdcccfb75eb2b5143819acb9b11bc745949f7a0a784a2d5efbbbaebe651b106",
+			"url": "assets/8bdcccfb75eb2b5143819acb9b11bc745949f7a0a784a2d5efbbbaebe651b106.pck"
+		},
+		"res://assets/chapters/covers/tideglass_reef/room_1.webp": {
+			"bytes": 181648,
+			"sha256": "db6f398212b603d1771258537dee135f2503af619bd14a4ac3eb228beaaa7a60",
+			"url": "assets/db6f398212b603d1771258537dee135f2503af619bd14a4ac3eb228beaaa7a60.pck"
+		},
+		"res://assets/chapters/covers/tideglass_reef/room_2.webp": {
+			"bytes": 177264,
+			"sha256": "4e71cc2468fc52bf3cbf04151b0d56f18df53f5d3cf694f11e1b4c9947e20a8c",
+			"url": "assets/4e71cc2468fc52bf3cbf04151b0d56f18df53f5d3cf694f11e1b4c9947e20a8c.pck"
+		},
+		"res://assets/chapters/covers/tideglass_reef/room_3.webp": {
+			"bytes": 198256,
+			"sha256": "379de35f4ec705c5d60bd6f917f6dd1890e9f788b729e9cfa3ac88c75e5e00d1",
+			"url": "assets/379de35f4ec705c5d60bd6f917f6dd1890e9f788b729e9cfa3ac88c75e5e00d1.pck"
+		},
+		"res://assets/chapters/lantern_harbor/room_0.webp": {
+			"bytes": 369900,
+			"sha256": "dbbb6ea007273ef6e211ec1425292af9e2906f74eb400b889a82fb468d8b8074",
+			"url": "assets/dbbb6ea007273ef6e211ec1425292af9e2906f74eb400b889a82fb468d8b8074.pck"
+		},
+		"res://assets/chapters/lantern_harbor/room_1.webp": {
+			"bytes": 488972,
+			"sha256": "2d81b6e4d03efa9076ac10bd5e31e11859cedf2abd814abf42d1398eb6c28c44",
+			"url": "assets/2d81b6e4d03efa9076ac10bd5e31e11859cedf2abd814abf42d1398eb6c28c44.pck"
+		},
+		"res://assets/chapters/lantern_harbor/room_2.webp": {
+			"bytes": 469708,
+			"sha256": "e0ac18bf7b482a8892fa06ba797165acc369cfdfd1f79c870130ecfbc1da6d4e",
+			"url": "assets/e0ac18bf7b482a8892fa06ba797165acc369cfdfd1f79c870130ecfbc1da6d4e.pck"
+		},
+		"res://assets/chapters/lantern_harbor/room_3.webp": {
+			"bytes": 413356,
+			"sha256": "5b6b677e1a4f1b9dc524bf9e410a43bdd6e496a5504ce0aad3f9c7f029ec7e35",
+			"url": "assets/5b6b677e1a4f1b9dc524bf9e410a43bdd6e496a5504ce0aad3f9c7f029ec7e35.pck"
+		},
+		"res://assets/chapters/moonlit_observatory/room_0.webp": {
+			"bytes": 381520,
+			"sha256": "b5764ede75f4bb818335381d610760b3327bc6dcdb1cb98d1fe8095ff48c21eb",
+			"url": "assets/b5764ede75f4bb818335381d610760b3327bc6dcdb1cb98d1fe8095ff48c21eb.pck"
+		},
+		"res://assets/chapters/moonlit_observatory/room_1.webp": {
+			"bytes": 340816,
+			"sha256": "627f76835e0052b74ae451e38557bdbbe4035446657a005304c7bab08401fc7b",
+			"url": "assets/627f76835e0052b74ae451e38557bdbbe4035446657a005304c7bab08401fc7b.pck"
+		},
+		"res://assets/chapters/moonlit_observatory/room_2.webp": {
+			"bytes": 390736,
+			"sha256": "2c4ecad728c9cb22a48ba4c9e7337476117f5502c7d371cc59ab82df3cd56e13",
+			"url": "assets/2c4ecad728c9cb22a48ba4c9e7337476117f5502c7d371cc59ab82df3cd56e13.pck"
+		},
+		"res://assets/chapters/moonlit_observatory/room_3.webp": {
+			"bytes": 460560,
+			"sha256": "eed0b4be31b2c92e3237571350f3c56fc386d8349628ad241c86c20bc830e202",
+			"url": "assets/eed0b4be31b2c92e3237571350f3c56fc386d8349628ad241c86c20bc830e202.pck"
+		},
+		"res://assets/chapters/night_greenhouse/room_0.webp": {
+			"bytes": 373228,
+			"sha256": "6ec24670a4f64b68dc0efc99efe1abd82dce4509e276ca51f49f65655f996c82",
+			"url": "assets/6ec24670a4f64b68dc0efc99efe1abd82dce4509e276ca51f49f65655f996c82.pck"
+		},
+		"res://assets/chapters/night_greenhouse/room_1.webp": {
+			"bytes": 388780,
+			"sha256": "c81cfc79eb7d99d8ce26c8c3b11baa612fed095b2e71812519f91580e544c66e",
+			"url": "assets/c81cfc79eb7d99d8ce26c8c3b11baa612fed095b2e71812519f91580e544c66e.pck"
+		},
+		"res://assets/chapters/night_greenhouse/room_2.webp": {
+			"bytes": 406988,
+			"sha256": "399731577afcd4ba1f10291ff49267e5229e9b057ab7051821c93b1b83dcdf8f",
+			"url": "assets/399731577afcd4ba1f10291ff49267e5229e9b057ab7051821c93b1b83dcdf8f.pck"
+		},
+		"res://assets/chapters/night_greenhouse/room_3.webp": {
+			"bytes": 417868,
+			"sha256": "d407fda093a23f8cdccc85c22b14f1073dde83fd4182071ebf3edffc63b323ae",
+			"url": "assets/d407fda093a23f8cdccc85c22b14f1073dde83fd4182071ebf3edffc63b323ae.pck"
+		},
+		"res://assets/chapters/starlit_caravan/room_0.webp": {
+			"bytes": 341644,
+			"sha256": "9ac5dc6909d1142b412abe2cf88670a9a07052175e39dff46b24372b50d855d5",
+			"url": "assets/9ac5dc6909d1142b412abe2cf88670a9a07052175e39dff46b24372b50d855d5.pck"
+		},
+		"res://assets/chapters/starlit_caravan/room_1.webp": {
+			"bytes": 448716,
+			"sha256": "1616c4c3458ad1684d45e61c534247217ab5c27cf38947ebcb13a4d00056eb2f",
+			"url": "assets/1616c4c3458ad1684d45e61c534247217ab5c27cf38947ebcb13a4d00056eb2f.pck"
+		},
+		"res://assets/chapters/starlit_caravan/room_2.webp": {
+			"bytes": 416204,
+			"sha256": "640a213680dbd1874d647b0b6c2ff91c4fd35b6369c24b23a3ffa08c57e5fe82",
+			"url": "assets/640a213680dbd1874d647b0b6c2ff91c4fd35b6369c24b23a3ffa08c57e5fe82.pck"
+		},
+		"res://assets/chapters/starlit_caravan/room_3.webp": {
+			"bytes": 491116,
+			"sha256": "e6e65c321fcc4bc62822c2ee931d93be4338bcc6dd478d4b31231931c744d896",
+			"url": "assets/e6e65c321fcc4bc62822c2ee931d93be4338bcc6dd478d4b31231931c744d896.pck"
+		},
+		"res://assets/chapters/tideglass_reef/room_0.webp": {
+			"bytes": 429676,
+			"sha256": "b5460c84508b0c8e155b0fa81be2391693e3afe34c5e836e75f10f7e45cebf4d",
+			"url": "assets/b5460c84508b0c8e155b0fa81be2391693e3afe34c5e836e75f10f7e45cebf4d.pck"
+		},
+		"res://assets/chapters/tideglass_reef/room_1.webp": {
+			"bytes": 527948,
+			"sha256": "a480b6fcf3fbb2fc80f4b18964f5e737be801529675a630206e840d7797b9585",
+			"url": "assets/a480b6fcf3fbb2fc80f4b18964f5e737be801529675a630206e840d7797b9585.pck"
+		},
+		"res://assets/chapters/tideglass_reef/room_2.webp": {
+			"bytes": 506540,
+			"sha256": "89c6c86a5185837e94d6864a114351bc461f524ec24ff6d3a8f1e80142fdc8e1",
+			"url": "assets/89c6c86a5185837e94d6864a114351bc461f524ec24ff6d3a8f1e80142fdc8e1.pck"
+		},
+		"res://assets/chapters/tideglass_reef/room_3.webp": {
+			"bytes": 588300,
+			"sha256": "4cc992c701f681430b6e993f07e7cf2afbdd4ffef4782211a1445dac8889f0d1",
+			"url": "assets/4cc992c701f681430b6e993f07e7cf2afbdd4ffef4782211a1445dac8889f0d1.pck"
+		},
+		"res://assets/journey/art-styles/pencil/atoms.webp": {
+			"bytes": 154888,
+			"sha256": "f0b5b37076695a3fbee5f2403f35a9af80dfb2efb5b6b8f00b46b1a2139ddc80",
+			"url": "assets/f0b5b37076695a3fbee5f2403f35a9af80dfb2efb5b6b8f00b46b1a2139ddc80.pck"
+		},
+		"res://assets/journey/art-styles/pencil/blooms.webp": {
+			"bytes": 211948,
+			"sha256": "bb8bb0723f7dbe348ddda4caaf037a8f107b97310a0f0c0cc85866021f6dc71b",
+			"url": "assets/bb8bb0723f7dbe348ddda4caaf037a8f107b97310a0f0c0cc85866021f6dc71b.pck"
+		},
+		"res://assets/journey/art-styles/pencil/chroma.webp": {
+			"bytes": 172300,
+			"sha256": "0fd3b3bb946471051d03657604da0b77bc5472c03b77c95d48be817cb9fc0642",
+			"url": "assets/0fd3b3bb946471051d03657604da0b77bc5472c03b77c95d48be817cb9fc0642.pck"
+		},
+		"res://assets/journey/art-styles/pencil/fillapix.webp": {
+			"bytes": 168016,
+			"sha256": "35c1a1b848711a0981008667a7ccebdeb380912cdbed0ab6874dd2c45a03c6f9",
+			"url": "assets/35c1a1b848711a0981008667a7ccebdeb380912cdbed0ab6874dd2c45a03c6f9.pck"
+		},
+		"res://assets/journey/art-styles/pencil/futoshiki.webp": {
+			"bytes": 181584,
+			"sha256": "408b54cff7cc1b879fb2f6ef344aa21fc7eec6b54bdb5f5daedb9e1c7232e8f3",
+			"url": "assets/408b54cff7cc1b879fb2f6ef344aa21fc7eec6b54bdb5f5daedb9e1c7232e8f3.pck"
+		},
+		"res://assets/journey/art-styles/pencil/galaxies.webp": {
+			"bytes": 134640,
+			"sha256": "6cf0c2f53ee5c37a6cb6c9c4bcc5f63019d378c638d57d504d8eb31551a9f055",
+			"url": "assets/6cf0c2f53ee5c37a6cb6c9c4bcc5f63019d378c638d57d504d8eb31551a9f055.pck"
+		},
+		"res://assets/journey/art-styles/pencil/hitori.webp": {
+			"bytes": 167596,
+			"sha256": "865e4aba9ec80f6e8fa1dce468fac951097f307f07f07b6cb9660fdfd59781f3",
+			"url": "assets/865e4aba9ec80f6e8fa1dce468fac951097f307f07f07b6cb9660fdfd59781f3.pck"
+		},
+		"res://assets/journey/art-styles/pencil/kakurasu.webp": {
+			"bytes": 193520,
+			"sha256": "415c888350354e61e2dbfac6f6e39812844b529b4904a1b076af0209507af4e8",
+			"url": "assets/415c888350354e61e2dbfac6f6e39812844b529b4904a1b076af0209507af4e8.pck"
+		},
+		"res://assets/journey/art-styles/pencil/kakuro.webp": {
+			"bytes": 159532,
+			"sha256": "c2214e8c8632761f632494d8616c5a8c30b9aa290a3497d922dc0b79e4506c03",
+			"url": "assets/c2214e8c8632761f632494d8616c5a8c30b9aa290a3497d922dc0b79e4506c03.pck"
+		},
+		"res://assets/journey/art-styles/pencil/lanterns.webp": {
+			"bytes": 164720,
+			"sha256": "10be426c40ad7faea9dba2a35f876c8fbaf160399d63782c5ee88fc31c333246",
+			"url": "assets/10be426c40ad7faea9dba2a35f876c8fbaf160399d63782c5ee88fc31c333246.pck"
+		},
+		"res://assets/journey/art-styles/pencil/lits.webp": {
+			"bytes": 124840,
+			"sha256": "239d83a99f1ba1337f7b76a8c7a27bcbe3b4f3313c98c5f25fb9f78b512d9d83",
+			"url": "assets/239d83a99f1ba1337f7b76a8c7a27bcbe3b4f3313c98c5f25fb9f78b512d9d83.pck"
+		},
+		"res://assets/journey/art-styles/pencil/mambo.webp": {
+			"bytes": 178216,
+			"sha256": "99262ab29c45a78f89719b610901f4276cf011a93856a6b39b849f373450e0c0",
+			"url": "assets/99262ab29c45a78f89719b610901f4276cf011a93856a6b39b849f373450e0c0.pck"
+		},
+		"res://assets/journey/art-styles/pencil/mosaic.webp": {
+			"bytes": 169804,
+			"sha256": "9b6472456c89a29bf4f3365d6b0bb14a13dacc7d7a0da28e0746594cae06e157",
+			"url": "assets/9b6472456c89a29bf4f3365d6b0bb14a13dacc7d7a0da28e0746594cae06e157.pck"
+		},
+		"res://assets/journey/art-styles/pencil/nonogram.webp": {
+			"bytes": 166192,
+			"sha256": "cf65a9e7b1b482ee5fc8eff3da29b8ec8dfec4455f028d9959dc6e56d89302db",
+			"url": "assets/cf65a9e7b1b482ee5fc8eff3da29b8ec8dfec4455f028d9959dc6e56d89302db.pck"
+		},
+		"res://assets/journey/art-styles/pencil/one_stroke.webp": {
+			"bytes": 160884,
+			"sha256": "6536fb35bb141bb38feac08b22b8b3f736d249495f9819d155fe478e36fb529f",
+			"url": "assets/6536fb35bb141bb38feac08b22b8b3f736d249495f9819d155fe478e36fb529f.pck"
+		},
+		"res://assets/journey/art-styles/pencil/pipes.webp": {
+			"bytes": 176328,
+			"sha256": "aa9c1d7b43cfaf1f6a4ace64d653ce9c69392645296cb29ca218d2b0a311944a",
+			"url": "assets/aa9c1d7b43cfaf1f6a4ace64d653ce9c69392645296cb29ca218d2b0a311944a.pck"
+		},
+		"res://assets/journey/art-styles/pencil/sets.webp": {
+			"bytes": 137704,
+			"sha256": "4eb7cf5e0a170a36c3ea43df474b33a01b408ae68db6cbfa215e61844e028194",
+			"url": "assets/4eb7cf5e0a170a36c3ea43df474b33a01b408ae68db6cbfa215e61844e028194.pck"
+		},
+		"res://assets/journey/art-styles/pencil/shikaku.webp": {
+			"bytes": 186124,
+			"sha256": "8901e8bdd2a836ab8eb355cdedabd48c224cd72f157a8f8ac8a684122229f514",
+			"url": "assets/8901e8bdd2a836ab8eb355cdedabd48c224cd72f157a8f8ac8a684122229f514.pck"
+		},
+		"res://assets/journey/art-styles/pencil/skyscrapers.webp": {
+			"bytes": 171828,
+			"sha256": "8949b9b01395f99b5e1dcc102903aa5f27420c9ae0a90e97bd664ed28f07bb87",
+			"url": "assets/8949b9b01395f99b5e1dcc102903aa5f27420c9ae0a90e97bd664ed28f07bb87.pck"
+		},
+		"res://assets/journey/art-styles/pencil/slitherlink.webp": {
+			"bytes": 212820,
+			"sha256": "475f0c1be9ef3938bbe5284c20a3e2a0087aef4159ae8a974f7acf1a63a74d94",
+			"url": "assets/475f0c1be9ef3938bbe5284c20a3e2a0087aef4159ae8a974f7acf1a63a74d94.pck"
+		},
+		"res://assets/journey/art-styles/pencil/sudoku.webp": {
+			"bytes": 162668,
+			"sha256": "70af077acf471ec31d8ff23518c847d6852ef555812e209dcafa4588d2d56297",
+			"url": "assets/70af077acf471ec31d8ff23518c847d6852ef555812e209dcafa4588d2d56297.pck"
+		},
+		"res://assets/journey/art-styles/pencil/sumplete.webp": {
+			"bytes": 156624,
+			"sha256": "18d68f5efc5f1832af6f6d6a90996d69c2c62e4d91d9b9ee0ad2aad880d28618",
+			"url": "assets/18d68f5efc5f1832af6f6d6a90996d69c2c62e4d91d9b9ee0ad2aad880d28618.pck"
+		},
+		"res://assets/journey/art-styles/pencil/tents.webp": {
+			"bytes": 192168,
+			"sha256": "5e8dbcafef3ec78a14ed4d8e22e61808643f7f1a21a619585385e42214590d73",
+			"url": "assets/5e8dbcafef3ec78a14ed4d8e22e61808643f7f1a21a619585385e42214590d73.pck"
+		},
+		"res://assets/journey/art-styles/pencil/thermometers.webp": {
+			"bytes": 135096,
+			"sha256": "98a7bf76e2eca5c137caa8f6ff002526f417a96e2fc81df9ed7112b8ca4671b8",
+			"url": "assets/98a7bf76e2eca5c137caa8f6ff002526f417a96e2fc81df9ed7112b8ca4671b8.pck"
+		},
+		"res://assets/journey/art-styles/pencil/truffles.webp": {
+			"bytes": 176304,
+			"sha256": "53f9f3751d9508d9321d38f5b0b0460ccad6c90b29cae17c1d0e1f130ac70a7d",
+			"url": "assets/53f9f3751d9508d9321d38f5b0b0460ccad6c90b29cae17c1d0e1f130ac70a7d.pck"
+		},
+		"res://assets/journey/art-styles/pixel/atoms.webp": {
+			"bytes": 95656,
+			"sha256": "b796cdbdcec87ed7b226e7d6bc39eebc3119e9a723a71b7d7793cc7b0ec79c20",
+			"url": "assets/b796cdbdcec87ed7b226e7d6bc39eebc3119e9a723a71b7d7793cc7b0ec79c20.pck"
+		},
+		"res://assets/journey/art-styles/pixel/blooms.webp": {
+			"bytes": 113484,
+			"sha256": "0be946ee9ce0b8c96be6f03e96ffce2e933e3e748af09c5a2f7a52f515d8a9e2",
+			"url": "assets/0be946ee9ce0b8c96be6f03e96ffce2e933e3e748af09c5a2f7a52f515d8a9e2.pck"
+		},
+		"res://assets/journey/art-styles/pixel/chroma.webp": {
+			"bytes": 83180,
+			"sha256": "f38239274cac1aa9b406aa910e8a45fb5e1cb53d31f4dd4d277b880da46639fd",
+			"url": "assets/f38239274cac1aa9b406aa910e8a45fb5e1cb53d31f4dd4d277b880da46639fd.pck"
+		},
+		"res://assets/journey/art-styles/pixel/fillapix.webp": {
+			"bytes": 106060,
+			"sha256": "0a54c1c833d9c6ba2eb0512eba7ceff2498a3128001c59119d71726c90baa1f6",
+			"url": "assets/0a54c1c833d9c6ba2eb0512eba7ceff2498a3128001c59119d71726c90baa1f6.pck"
+		},
+		"res://assets/journey/art-styles/pixel/futoshiki.webp": {
+			"bytes": 93328,
+			"sha256": "476593b72cec349691e490d87ab1d954f3d25c6a994a57e0c3ea04f502cad0d0",
+			"url": "assets/476593b72cec349691e490d87ab1d954f3d25c6a994a57e0c3ea04f502cad0d0.pck"
+		},
+		"res://assets/journey/art-styles/pixel/galaxies.webp": {
+			"bytes": 95276,
+			"sha256": "f2e9c3b31c14baa6e9e187792d33224687ebe4ecc3372a0fa43e6c8b86e70d93",
+			"url": "assets/f2e9c3b31c14baa6e9e187792d33224687ebe4ecc3372a0fa43e6c8b86e70d93.pck"
+		},
+		"res://assets/journey/art-styles/pixel/hitori.webp": {
+			"bytes": 99244,
+			"sha256": "e484daf502937e4f8ee78db1c1056a9bcfc275441dbc637b333b58a023191b3d",
+			"url": "assets/e484daf502937e4f8ee78db1c1056a9bcfc275441dbc637b333b58a023191b3d.pck"
+		},
+		"res://assets/journey/art-styles/pixel/kakurasu.webp": {
+			"bytes": 94508,
+			"sha256": "4a34223bf2ad2a23d36253416c686f5d39b996ab2f5943457e3dbabd8d8bca07",
+			"url": "assets/4a34223bf2ad2a23d36253416c686f5d39b996ab2f5943457e3dbabd8d8bca07.pck"
+		},
+		"res://assets/journey/art-styles/pixel/kakuro.webp": {
+			"bytes": 107116,
+			"sha256": "fa06b239ea14c9c62f2abf8d6f1e360976d2400f556740693d09ba21616f6b33",
+			"url": "assets/fa06b239ea14c9c62f2abf8d6f1e360976d2400f556740693d09ba21616f6b33.pck"
+		},
+		"res://assets/journey/art-styles/pixel/lanterns.webp": {
+			"bytes": 101388,
+			"sha256": "570801bb9819252991d9b1e66f2b5c227ba59a1920182e1787034ba8a223266e",
+			"url": "assets/570801bb9819252991d9b1e66f2b5c227ba59a1920182e1787034ba8a223266e.pck"
+		},
+		"res://assets/journey/art-styles/pixel/lits.webp": {
+			"bytes": 98756,
+			"sha256": "471384eba5550ecafbb891cd99ba1ef71d43504056ef42ec5635ea74e71a5a19",
+			"url": "assets/471384eba5550ecafbb891cd99ba1ef71d43504056ef42ec5635ea74e71a5a19.pck"
+		},
+		"res://assets/journey/art-styles/pixel/mambo.webp": {
+			"bytes": 90504,
+			"sha256": "02200528abf46a25d88cc845cd524ed7cd8952549a65d4ec7779723d0e4777b8",
+			"url": "assets/02200528abf46a25d88cc845cd524ed7cd8952549a65d4ec7779723d0e4777b8.pck"
+		},
+		"res://assets/journey/art-styles/pixel/mosaic.webp": {
+			"bytes": 104780,
+			"sha256": "b404c8bc8d34e12276ed6188725ece63eec62e2f7b8016bbaa796b88ea6dc0ce",
+			"url": "assets/b404c8bc8d34e12276ed6188725ece63eec62e2f7b8016bbaa796b88ea6dc0ce.pck"
+		},
+		"res://assets/journey/art-styles/pixel/nonogram.webp": {
+			"bytes": 89004,
+			"sha256": "5bcea58c9e5e1efe835dc092a7027fa02504c38faf13de3219bdfb6fb71f6578",
+			"url": "assets/5bcea58c9e5e1efe835dc092a7027fa02504c38faf13de3219bdfb6fb71f6578.pck"
+		},
+		"res://assets/journey/art-styles/pixel/one_stroke.webp": {
+			"bytes": 102228,
+			"sha256": "87618fa710ad7cd3e82d9cbfab81977c2b439b83d8f922d86e0ed8f39cd51a24",
+			"url": "assets/87618fa710ad7cd3e82d9cbfab81977c2b439b83d8f922d86e0ed8f39cd51a24.pck"
+		},
+		"res://assets/journey/art-styles/pixel/pipes.webp": {
+			"bytes": 91464,
+			"sha256": "6a58311c860573e2ae181a87f8913f505cd88070f5e023c8cc040c3b786d1d74",
+			"url": "assets/6a58311c860573e2ae181a87f8913f505cd88070f5e023c8cc040c3b786d1d74.pck"
+		},
+		"res://assets/journey/art-styles/pixel/sets.webp": {
+			"bytes": 93604,
+			"sha256": "823a3838bfa9138ccb07ec94a32b9c877293b83133383b19782014e21ddc0966",
+			"url": "assets/823a3838bfa9138ccb07ec94a32b9c877293b83133383b19782014e21ddc0966.pck"
+		},
+		"res://assets/journey/art-styles/pixel/shikaku.webp": {
+			"bytes": 64236,
+			"sha256": "248022e378a07f046a3224bb19df0caeca3de4121e8a30c8c312a0426c368204",
+			"url": "assets/248022e378a07f046a3224bb19df0caeca3de4121e8a30c8c312a0426c368204.pck"
+		},
+		"res://assets/journey/art-styles/pixel/skyscrapers.webp": {
+			"bytes": 79700,
+			"sha256": "9535eb1899b8b68d9e2b353ed61eb1d5690c2232cfb7719cf6b0467eaba961db",
+			"url": "assets/9535eb1899b8b68d9e2b353ed61eb1d5690c2232cfb7719cf6b0467eaba961db.pck"
+		},
+		"res://assets/journey/art-styles/pixel/slitherlink.webp": {
+			"bytes": 113460,
+			"sha256": "178549eebecc68901d8aa815245a13e6bf8221c02a355c3ec5455f718cbe9c66",
+			"url": "assets/178549eebecc68901d8aa815245a13e6bf8221c02a355c3ec5455f718cbe9c66.pck"
+		},
+		"res://assets/journey/art-styles/pixel/sudoku.webp": {
+			"bytes": 115564,
+			"sha256": "071a92cdf3ee7a6c23604999e25b6328b04a023378aef0cbf0e31d0f3bb1c0a3",
+			"url": "assets/071a92cdf3ee7a6c23604999e25b6328b04a023378aef0cbf0e31d0f3bb1c0a3.pck"
+		},
+		"res://assets/journey/art-styles/pixel/sumplete.webp": {
+			"bytes": 109708,
+			"sha256": "009b7a5bc89f1cacf0500d5bbbce0fa5a86f9025393cfc8fdb1a4bf319d0d0ea",
+			"url": "assets/009b7a5bc89f1cacf0500d5bbbce0fa5a86f9025393cfc8fdb1a4bf319d0d0ea.pck"
+		},
+		"res://assets/journey/art-styles/pixel/tents.webp": {
+			"bytes": 105288,
+			"sha256": "5d29d3ac096afe4b05c32b310a29e17962937812f90f8d6955410a1052e608e7",
+			"url": "assets/5d29d3ac096afe4b05c32b310a29e17962937812f90f8d6955410a1052e608e7.pck"
+		},
+		"res://assets/journey/art-styles/pixel/thermometers.webp": {
+			"bytes": 88212,
+			"sha256": "5bd0c5cd13e2bb558132f346fa5ca52b05e448bb5fb6ed0e2c90bc7101b544b0",
+			"url": "assets/5bd0c5cd13e2bb558132f346fa5ca52b05e448bb5fb6ed0e2c90bc7101b544b0.pck"
+		},
+		"res://assets/journey/art-styles/pixel/truffles.webp": {
+			"bytes": 89932,
+			"sha256": "f1c840ea512a88c87789a5c0280f9ebec4f400caad2730cdf0a07fd1c851aec6",
+			"url": "assets/f1c840ea512a88c87789a5c0280f9ebec4f400caad2730cdf0a07fd1c851aec6.pck"
+		},
+		"res://assets/journey/art-styles/print/atoms.webp": {
+			"bytes": 134216,
+			"sha256": "f185caea0b3dc0418b09f31ff3719e7900e3d4bee988e9b79dfdb140f748d597",
+			"url": "assets/f185caea0b3dc0418b09f31ff3719e7900e3d4bee988e9b79dfdb140f748d597.pck"
+		},
+		"res://assets/journey/art-styles/print/blooms.webp": {
+			"bytes": 127596,
+			"sha256": "5e2aa39ad9060aa0232dee32915e52dbba60c07105b24bc3dc819f86348e1f9f",
+			"url": "assets/5e2aa39ad9060aa0232dee32915e52dbba60c07105b24bc3dc819f86348e1f9f.pck"
+		},
+		"res://assets/journey/art-styles/print/chroma.webp": {
+			"bytes": 116364,
+			"sha256": "53e498dbaf79ea7fd6c3fe7791bfac598fe0fcf376b5d46048cc865be540fe7e",
+			"url": "assets/53e498dbaf79ea7fd6c3fe7791bfac598fe0fcf376b5d46048cc865be540fe7e.pck"
+		},
+		"res://assets/journey/art-styles/print/fillapix.webp": {
+			"bytes": 112236,
+			"sha256": "a35a189d7b036d3d249498555763b5074a4a7ae949116ae5dcd4bb462159f52c",
+			"url": "assets/a35a189d7b036d3d249498555763b5074a4a7ae949116ae5dcd4bb462159f52c.pck"
+		},
+		"res://assets/journey/art-styles/print/futoshiki.webp": {
+			"bytes": 100368,
+			"sha256": "61133e80b51684e5e273d9e8fcd6d6a0130991b11d99a3b3a905a262ceaf9b5c",
+			"url": "assets/61133e80b51684e5e273d9e8fcd6d6a0130991b11d99a3b3a905a262ceaf9b5c.pck"
+		},
+		"res://assets/journey/art-styles/print/galaxies.webp": {
+			"bytes": 141356,
+			"sha256": "34a67e43ae19c2ac3d35160b03b9a1e588cf8ebfaab35730bdca33265434a9b7",
+			"url": "assets/34a67e43ae19c2ac3d35160b03b9a1e588cf8ebfaab35730bdca33265434a9b7.pck"
+		},
+		"res://assets/journey/art-styles/print/hitori.webp": {
+			"bytes": 119820,
+			"sha256": "bcf8bdd9c0cb68abbaa707462b392345135fb6981ce265c2c7bfad169c9a36dc",
+			"url": "assets/bcf8bdd9c0cb68abbaa707462b392345135fb6981ce265c2c7bfad169c9a36dc.pck"
+		},
+		"res://assets/journey/art-styles/print/kakurasu.webp": {
+			"bytes": 94444,
+			"sha256": "58141ea6518be62d30e1402d3143ca0209d33a667592ddf575eeaaeedabcdd03",
+			"url": "assets/58141ea6518be62d30e1402d3143ca0209d33a667592ddf575eeaaeedabcdd03.pck"
+		},
+		"res://assets/journey/art-styles/print/kakuro.webp": {
+			"bytes": 150476,
+			"sha256": "36fc23cae313744318be8c8cb62161290db9a701043a299446551ec3838ce093",
+			"url": "assets/36fc23cae313744318be8c8cb62161290db9a701043a299446551ec3838ce093.pck"
+		},
+		"res://assets/journey/art-styles/print/lanterns.webp": {
+			"bytes": 102828,
+			"sha256": "6ae302b517cb64c0d5dd81803bc45a89a96a46243570d8d4fdbb2d3418e3c8a1",
+			"url": "assets/6ae302b517cb64c0d5dd81803bc45a89a96a46243570d8d4fdbb2d3418e3c8a1.pck"
+		},
+		"res://assets/journey/art-styles/print/lits.webp": {
+			"bytes": 117252,
+			"sha256": "79c30148e0104e0f1e64f27c3a26706aef3795c4dfecd8f2f2262dd925f105df",
+			"url": "assets/79c30148e0104e0f1e64f27c3a26706aef3795c4dfecd8f2f2262dd925f105df.pck"
+		},
+		"res://assets/journey/art-styles/print/mambo.webp": {
+			"bytes": 103272,
+			"sha256": "829e7021bee744ba5237bdc05ea02dc8e5bcdc27ba0a732124d0e1e13d4ac5ae",
+			"url": "assets/829e7021bee744ba5237bdc05ea02dc8e5bcdc27ba0a732124d0e1e13d4ac5ae.pck"
+		},
+		"res://assets/journey/art-styles/print/mosaic.webp": {
+			"bytes": 96236,
+			"sha256": "ce8f68b6785761c129fc5e3be12aa0f77f169ecf7f22fbf0c898e3c5450e5a99",
+			"url": "assets/ce8f68b6785761c129fc5e3be12aa0f77f169ecf7f22fbf0c898e3c5450e5a99.pck"
+		},
+		"res://assets/journey/art-styles/print/nonogram.webp": {
+			"bytes": 124588,
+			"sha256": "2e716596ffbebae29070aa87fa426de9447872f52fad8dd68276e0f7a8224f21",
+			"url": "assets/2e716596ffbebae29070aa87fa426de9447872f52fad8dd68276e0f7a8224f21.pck"
+		},
+		"res://assets/journey/art-styles/print/one_stroke.webp": {
+			"bytes": 141268,
+			"sha256": "e2257489a71670eab186154e475bb57fb6a53b87c18991f296d99d02da74dbf4",
+			"url": "assets/e2257489a71670eab186154e475bb57fb6a53b87c18991f296d99d02da74dbf4.pck"
+		},
+		"res://assets/journey/art-styles/print/pipes.webp": {
+			"bytes": 135688,
+			"sha256": "aa3318e2935c1cfd8035c89242d01b97474c00eab0ded8aab2767cc0fc9eac98",
+			"url": "assets/aa3318e2935c1cfd8035c89242d01b97474c00eab0ded8aab2767cc0fc9eac98.pck"
+		},
+		"res://assets/journey/art-styles/print/sets.webp": {
+			"bytes": 117924,
+			"sha256": "30d13a09be74746935ccf74d4467fc8889669669360b59e991447d6105d316bb",
+			"url": "assets/30d13a09be74746935ccf74d4467fc8889669669360b59e991447d6105d316bb.pck"
+		},
+		"res://assets/journey/art-styles/print/shikaku.webp": {
+			"bytes": 112268,
+			"sha256": "595bf6b6b59bfb6ea593fc2762b4a6297ee0474a89eafe46bf38a99c0611e68d",
+			"url": "assets/595bf6b6b59bfb6ea593fc2762b4a6297ee0474a89eafe46bf38a99c0611e68d.pck"
+		},
+		"res://assets/journey/art-styles/print/skyscrapers.webp": {
+			"bytes": 113620,
+			"sha256": "a1c4251ee00b0c2e3d3dac67e6e369e6abb418a672463670117c941a21274ced",
+			"url": "assets/a1c4251ee00b0c2e3d3dac67e6e369e6abb418a672463670117c941a21274ced.pck"
+		},
+		"res://assets/journey/art-styles/print/slitherlink.webp": {
+			"bytes": 146644,
+			"sha256": "a239b3440453188bc80b5ff95da48c09e2e65b2005dfa7c558c2b8da53d20d94",
+			"url": "assets/a239b3440453188bc80b5ff95da48c09e2e65b2005dfa7c558c2b8da53d20d94.pck"
+		},
+		"res://assets/journey/art-styles/print/sudoku.webp": {
+			"bytes": 123500,
+			"sha256": "df17d61fdb0eaa9910ef04a5521768b8ef85dc40f77ed45629c17f072fd11c96",
+			"url": "assets/df17d61fdb0eaa9910ef04a5521768b8ef85dc40f77ed45629c17f072fd11c96.pck"
+		},
+		"res://assets/journey/art-styles/print/sumplete.webp": {
+			"bytes": 137164,
+			"sha256": "426ab74b2acb24bed85ebc99f87a0d618c8acae7981e12935d81ccbfed17bc5e",
+			"url": "assets/426ab74b2acb24bed85ebc99f87a0d618c8acae7981e12935d81ccbfed17bc5e.pck"
+		},
+		"res://assets/journey/art-styles/print/tents.webp": {
+			"bytes": 126056,
+			"sha256": "95af4dd6a5fa11d42bbb89dd6f66d0b85bc51474416fa8ff2ccae3476f1bd0a5",
+			"url": "assets/95af4dd6a5fa11d42bbb89dd6f66d0b85bc51474416fa8ff2ccae3476f1bd0a5.pck"
+		},
+		"res://assets/journey/art-styles/print/thermometers.webp": {
+			"bytes": 92212,
+			"sha256": "acbd3bc3cc3dd6588170a874927f0f6c12d7c3a54afbbf2db8468ccaa443ad00",
+			"url": "assets/acbd3bc3cc3dd6588170a874927f0f6c12d7c3a54afbbf2db8468ccaa443ad00.pck"
+		},
+		"res://assets/journey/art-styles/print/truffles.webp": {
+			"bytes": 115340,
+			"sha256": "ed61143818aec5daf7ca598ccb61fa4346415df52adaca4f96310afbc99dff58",
+			"url": "assets/ed61143818aec5daf7ca598ccb61fa4346415df52adaca4f96310afbc99dff58.pck"
+		}
+	},
+	"version": 1
+}
