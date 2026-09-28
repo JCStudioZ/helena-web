@@ -123,6 +123,43 @@
     </main>
   </div>
   <noscript>Please enable JavaScript to play Helena.</noscript>
+  <script id="helena-motion-preference">
+    (() => {
+      'use strict';
+      window.HelenaMotionPreferences = {
+        attach(callback) {
+          let media = null;
+          try { media = window.matchMedia('(prefers-reduced-motion: reduce)'); } catch (_) {}
+          let live = true;
+          const read = () => !!(media && media.matches);
+          let previous = read();
+          const refresh = () => {
+            const current = read();
+            if (!live || previous === current) return;
+            previous = current;
+            if (typeof callback === 'function') callback(current);
+          };
+          const visible = () => { if (!document.hidden) refresh(); };
+          if (media && typeof media.addEventListener === 'function') media.addEventListener('change', refresh);
+          else if (media && typeof media.addListener === 'function') media.addListener(refresh);
+          window.addEventListener('pageshow', refresh);
+          document.addEventListener('visibilitychange', visible);
+          return {
+            current: read,
+            dispose() {
+              if (!live) return;
+              live = false;
+              callback = null;
+              if (media && typeof media.removeEventListener === 'function') media.removeEventListener('change', refresh);
+              else if (media && typeof media.removeListener === 'function') media.removeListener(refresh);
+              window.removeEventListener('pageshow', refresh);
+              document.removeEventListener('visibilitychange', visible);
+            }
+          };
+        }
+      };
+    })();
+  </script>
   <script>
     // Paint the lightweight room before requesting the engine. No extra images,
     // fonts, timers, audio, saved-data access or artificial minimum wait.
@@ -161,8 +198,10 @@
   </script>
   <script src="index.js" onerror="showLoadingFailure('Unable to load the game engine')"></script>
   <script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.wasm":39513091,"index-7490eeea1f29f93b.pck":5776360},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"mainPack":"index-7490eeea1f29f93b.pck"};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.wasm":39513091,"index-a9bc9040d815efbf.pck":6079604},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"mainPack":"index-a9bc9040d815efbf.pck"};
 const GODOT_THREADS_ENABLED = false;
+    // The secondary mouse button is a puzzle action inside the game canvas.
+    document.getElementById('canvas').addEventListener('contextmenu', event => event.preventDefault());
     // Retain Godot's exported configuration (including persistence and canvas
     // resizing). This shell changes presentation, not startup or save paths.
     if (!loadingFinished) {

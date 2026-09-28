@@ -1,5 +1,150 @@
 {
 	"assets": {
+		"res://assets/achievements/atoms_specialist-v1.png": {
+			"bytes": 102360,
+			"sha256": "3f2edcb864ea68412300ed2e2fe8170902bd14128b9ce11fb43709b8246c5471",
+			"url": "assets/3f2edcb864ea68412300ed2e2fe8170902bd14128b9ce11fb43709b8246c5471.pck"
+		},
+		"res://assets/achievements/blooms_specialist-v1.png": {
+			"bytes": 130136,
+			"sha256": "d2915493016bb69aa191bcc7af9fab77747644053c2ebca4239eb30ee82e803b",
+			"url": "assets/d2915493016bb69aa191bcc7af9fab77747644053c2ebca4239eb30ee82e803b.pck"
+		},
+		"res://assets/achievements/chroma_specialist-v1.png": {
+			"bytes": 101624,
+			"sha256": "319168e00783f259a30aec69fa94639929165a5d8ad9c05fb7316d81ff60ef3d",
+			"url": "assets/319168e00783f259a30aec69fa94639929165a5d8ad9c05fb7316d81ff60ef3d.pck"
+		},
+		"res://assets/achievements/daily_hard-v1.png": {
+			"bytes": 98120,
+			"sha256": "8109f6059eb9c7e949dedc27fd08d7654bcdf4d959d2eb1b7d0712202df02ce2",
+			"url": "assets/8109f6059eb9c7e949dedc27fd08d7654bcdf4d959d2eb1b7d0712202df02ce2.pck"
+		},
+		"res://assets/achievements/daily_standard-v1.png": {
+			"bytes": 92016,
+			"sha256": "261ff5eabdb0ec63f4a24e6abd688090bf100abc3565cee4e8565f15869130e9",
+			"url": "assets/261ff5eabdb0ec63f4a24e6abd688090bf100abc3565cee4e8565f15869130e9.pck"
+		},
+		"res://assets/achievements/daily_triple-v1.png": {
+			"bytes": 100784,
+			"sha256": "93b9be9298327fdab5943c2309ee4975132e920f4c07b63674c7ad7fd58b91bb",
+			"url": "assets/93b9be9298327fdab5943c2309ee4975132e920f4c07b63674c7ad7fd58b91bb.pck"
+		},
+		"res://assets/achievements/fillapix_specialist-v1.png": {
+			"bytes": 145404,
+			"sha256": "f53e1c6190e5ad5152ab61d1abcd3339f94deae75b63d276d450090a060de7e2",
+			"url": "assets/f53e1c6190e5ad5152ab61d1abcd3339f94deae75b63d276d450090a060de7e2.pck"
+		},
+		"res://assets/achievements/futoshiki_specialist-v1.png": {
+			"bytes": 91200,
+			"sha256": "327baef4ed28dbd318328b5ae3d1aab6fe5afdf252872ad3729c8db3cd14aabc",
+			"url": "assets/327baef4ed28dbd318328b5ae3d1aab6fe5afdf252872ad3729c8db3cd14aabc.pck"
+		},
+		"res://assets/achievements/hitori_specialist-v1.png": {
+			"bytes": 94168,
+			"sha256": "2d92b63c664340c433fda7a35d22b6c630f15e43328006ca0a36571736f49d29",
+			"url": "assets/2d92b63c664340c433fda7a35d22b6c630f15e43328006ca0a36571736f49d29.pck"
+		},
+		"res://assets/achievements/kakurasu_specialist-v1.png": {
+			"bytes": 99708,
+			"sha256": "7ab5701fd413d65c48cfdb097f15891bf98c4536ee65907697fe169e451131b3",
+			"url": "assets/7ab5701fd413d65c48cfdb097f15891bf98c4536ee65907697fe169e451131b3.pck"
+		},
+		"res://assets/achievements/kakuro_specialist-v1.png": {
+			"bytes": 98200,
+			"sha256": "a80f27092ac86fb053a09a4d34abf560fa0b5eb6323a10cbcffddfeaaf417038",
+			"url": "assets/a80f27092ac86fb053a09a4d34abf560fa0b5eb6323a10cbcffddfeaaf417038.pck"
+		},
+		"res://assets/achievements/lits_specialist-v1.png": {
+			"bytes": 106004,
+			"sha256": "8ff708f1c05d2ae751dd548fe08f3d4068513788846cac55ff81460319edff0b",
+			"url": "assets/8ff708f1c05d2ae751dd548fe08f3d4068513788846cac55ff81460319edff0b.pck"
+		},
+		"res://assets/achievements/mambo_specialist-v1.png": {
+			"bytes": 98168,
+			"sha256": "f0754fe050c7362784999a3a28336a202b49d7b60f1db96a6a27178bbd6c9305",
+			"url": "assets/f0754fe050c7362784999a3a28336a202b49d7b60f1db96a6a27178bbd6c9305.pck"
+		},
+		"res://assets/achievements/mosaic_specialist-v1.png": {
+			"bytes": 106008,
+			"sha256": "409d97ecbfec29011e7cdd46e350db17166252618d4bcb900fa5c7038f12e03b",
+			"url": "assets/409d97ecbfec29011e7cdd46e350db17166252618d4bcb900fa5c7038f12e03b.pck"
+		},
+		"res://assets/achievements/numbers_endurance-v1.png": {
+			"bytes": 92536,
+			"sha256": "48b9064bb48d4327a6aa3c966e92a8961481ea4f71ba95b59d8a8285e53ae5d7",
+			"url": "assets/48b9064bb48d4327a6aa3c966e92a8961481ea4f71ba95b59d8a8285e53ae5d7.pck"
+		},
+		"res://assets/achievements/numbers_expert-v1.png": {
+			"bytes": 109616,
+			"sha256": "6938c23e586f14afc0deea735e5416d7dac3f4f95d2dbaacf0e44b5ed4508f41",
+			"url": "assets/6938c23e586f14afc0deea735e5416d7dac3f4f95d2dbaacf0e44b5ed4508f41.pck"
+		},
+		"res://assets/achievements/numbers_resolve-v1.png": {
+			"bytes": 93652,
+			"sha256": "ab797fee7d4f234eda47207d2fc75d371642e4ba7da09239776b5bfd0bae3d2a",
+			"url": "assets/ab797fee7d4f234eda47207d2fc75d371642e4ba7da09239776b5bfd0bae3d2a.pck"
+		},
+		"res://assets/achievements/one_stroke_specialist-v1.png": {
+			"bytes": 92480,
+			"sha256": "c9bbe7d768bf333b8da2413e33dbd4b78571b712bfb1e9e76b85ccb9741888ad",
+			"url": "assets/c9bbe7d768bf333b8da2413e33dbd4b78571b712bfb1e9e76b85ccb9741888ad.pck"
+		},
+		"res://assets/achievements/pipes_specialist-v1.png": {
+			"bytes": 138552,
+			"sha256": "02af949b3671aac858acf800c5387a9a1828ef722ac7b66c96c383f44952126a",
+			"url": "assets/02af949b3671aac858acf800c5387a9a1828ef722ac7b66c96c383f44952126a.pck"
+		},
+		"res://assets/achievements/sets_specialist-v1.png": {
+			"bytes": 115380,
+			"sha256": "c7630e188507b42935d4cb09262daf61feeed7508fecb7e03ab3de4a95a7bcd7",
+			"url": "assets/c7630e188507b42935d4cb09262daf61feeed7508fecb7e03ab3de4a95a7bcd7.pck"
+		},
+		"res://assets/achievements/shikaku_specialist-v1.png": {
+			"bytes": 102360,
+			"sha256": "056bc13912da8aba6cabeea2b7b06ee5aebe63188a7563562f780407b49b7751",
+			"url": "assets/056bc13912da8aba6cabeea2b7b06ee5aebe63188a7563562f780407b49b7751.pck"
+		},
+		"res://assets/achievements/skyscrapers_specialist-v1.png": {
+			"bytes": 168384,
+			"sha256": "35f138f90c574b319ca29616040e3b724585af1e5ef854a38c5a60d1541b7542",
+			"url": "assets/35f138f90c574b319ca29616040e3b724585af1e5ef854a38c5a60d1541b7542.pck"
+		},
+		"res://assets/achievements/sudoku_specialist-v1.png": {
+			"bytes": 102040,
+			"sha256": "0e935702d8aec2bb3bb9da57a024bce5de7f8340f0d067311e387005427c8939",
+			"url": "assets/0e935702d8aec2bb3bb9da57a024bce5de7f8340f0d067311e387005427c8939.pck"
+		},
+		"res://assets/achievements/sumplete_specialist-v1.png": {
+			"bytes": 95964,
+			"sha256": "6183231f9db084ea5e19a5f4eb5e1c250473dff3f2f27f5a5031c51cf75d8946",
+			"url": "assets/6183231f9db084ea5e19a5f4eb5e1c250473dff3f2f27f5a5031c51cf75d8946.pck"
+		},
+		"res://assets/achievements/thermometers_specialist-v1.png": {
+			"bytes": 96100,
+			"sha256": "c77bd94b7a4814d2c80c774ed52359388a69ca5e333956322a56adb8fe4b2d08",
+			"url": "assets/c77bd94b7a4814d2c80c774ed52359388a69ca5e333956322a56adb8fe4b2d08.pck"
+		},
+		"res://assets/achievements/truffles_specialist-v1.png": {
+			"bytes": 101276,
+			"sha256": "6201f6b8a549e1881a58392a4c0fa3263ea5f52abea30c472975dc4b5bc1c3fb",
+			"url": "assets/6201f6b8a549e1881a58392a4c0fa3263ea5f52abea30c472975dc4b5bc1c3fb.pck"
+		},
+		"res://assets/achievements/visual_endurance-v1.png": {
+			"bytes": 117592,
+			"sha256": "ef6c71103ff62845abab081d6354bf24f0684280cbb551e88ccf47be51b05e69",
+			"url": "assets/ef6c71103ff62845abab081d6354bf24f0684280cbb551e88ccf47be51b05e69.pck"
+		},
+		"res://assets/achievements/visual_expert-v1.png": {
+			"bytes": 116880,
+			"sha256": "daab02c40780c254816bc78dc7936a14aa259316845e95cf47763b75f82c94c7",
+			"url": "assets/daab02c40780c254816bc78dc7936a14aa259316845e95cf47763b75f82c94c7.pck"
+		},
+		"res://assets/achievements/visual_resolve-v1.png": {
+			"bytes": 85008,
+			"sha256": "9f568a5f87ac57bb1461fcb7a531030efa5b2077ac01c6503b088742da82e517",
+			"url": "assets/9f568a5f87ac57bb1461fcb7a531030efa5b2077ac01c6503b088742da82e517.pck"
+		},
 		"res://assets/album/atoms_mastery-v1.png": {
 			"bytes": 275976,
 			"sha256": "76acc1b4515576532398868a67df470a3e970dd86f5db941fca6e9db02542f70",
@@ -376,9 +521,9 @@
 			"url": "assets/bb8bb0723f7dbe348ddda4caaf037a8f107b97310a0f0c0cc85866021f6dc71b.pck"
 		},
 		"res://assets/journey/art-styles/pencil/chroma.webp": {
-			"bytes": 172300,
-			"sha256": "0fd3b3bb946471051d03657604da0b77bc5472c03b77c95d48be817cb9fc0642",
-			"url": "assets/0fd3b3bb946471051d03657604da0b77bc5472c03b77c95d48be817cb9fc0642.pck"
+			"bytes": 134284,
+			"sha256": "a0f997a5274a6eda770ebccd866ff00745c917ba651614cd411040531ccefd1e",
+			"url": "assets/a0f997a5274a6eda770ebccd866ff00745c917ba651614cd411040531ccefd1e.pck"
 		},
 		"res://assets/journey/art-styles/pencil/fillapix.webp": {
 			"bytes": 168016,
@@ -386,9 +531,9 @@
 			"url": "assets/35c1a1b848711a0981008667a7ccebdeb380912cdbed0ab6874dd2c45a03c6f9.pck"
 		},
 		"res://assets/journey/art-styles/pencil/futoshiki.webp": {
-			"bytes": 181584,
-			"sha256": "408b54cff7cc1b879fb2f6ef344aa21fc7eec6b54bdb5f5daedb9e1c7232e8f3",
-			"url": "assets/408b54cff7cc1b879fb2f6ef344aa21fc7eec6b54bdb5f5daedb9e1c7232e8f3.pck"
+			"bytes": 154160,
+			"sha256": "c55a97455e996123035e0fcd7598cacd8a95007ed23cdc68e6722e2ea8c25300",
+			"url": "assets/c55a97455e996123035e0fcd7598cacd8a95007ed23cdc68e6722e2ea8c25300.pck"
 		},
 		"res://assets/journey/art-styles/pencil/galaxies.webp": {
 			"bytes": 134640,
@@ -406,9 +551,9 @@
 			"url": "assets/415c888350354e61e2dbfac6f6e39812844b529b4904a1b076af0209507af4e8.pck"
 		},
 		"res://assets/journey/art-styles/pencil/kakuro.webp": {
-			"bytes": 159532,
-			"sha256": "c2214e8c8632761f632494d8616c5a8c30b9aa290a3497d922dc0b79e4506c03",
-			"url": "assets/c2214e8c8632761f632494d8616c5a8c30b9aa290a3497d922dc0b79e4506c03.pck"
+			"bytes": 142220,
+			"sha256": "6da0f6d6dc0aab2f063c16f37290d5519a31e4b793a1b2386a8a0fad5ea14479",
+			"url": "assets/6da0f6d6dc0aab2f063c16f37290d5519a31e4b793a1b2386a8a0fad5ea14479.pck"
 		},
 		"res://assets/journey/art-styles/pencil/lanterns.webp": {
 			"bytes": 164720,
@@ -461,9 +606,9 @@
 			"url": "assets/8949b9b01395f99b5e1dcc102903aa5f27420c9ae0a90e97bd664ed28f07bb87.pck"
 		},
 		"res://assets/journey/art-styles/pencil/slitherlink.webp": {
-			"bytes": 212820,
-			"sha256": "475f0c1be9ef3938bbe5284c20a3e2a0087aef4159ae8a974f7acf1a63a74d94",
-			"url": "assets/475f0c1be9ef3938bbe5284c20a3e2a0087aef4159ae8a974f7acf1a63a74d94.pck"
+			"bytes": 170900,
+			"sha256": "492fcbf25e7344a7d311abdacf74c59c15a2bf8bb18daa13b44de7316ba343cf",
+			"url": "assets/492fcbf25e7344a7d311abdacf74c59c15a2bf8bb18daa13b44de7316ba343cf.pck"
 		},
 		"res://assets/journey/art-styles/pencil/sudoku.webp": {
 			"bytes": 162668,
@@ -561,14 +706,14 @@
 			"url": "assets/5bcea58c9e5e1efe835dc092a7027fa02504c38faf13de3219bdfb6fb71f6578.pck"
 		},
 		"res://assets/journey/art-styles/pixel/one_stroke.webp": {
-			"bytes": 102228,
-			"sha256": "87618fa710ad7cd3e82d9cbfab81977c2b439b83d8f922d86e0ed8f39cd51a24",
-			"url": "assets/87618fa710ad7cd3e82d9cbfab81977c2b439b83d8f922d86e0ed8f39cd51a24.pck"
+			"bytes": 103220,
+			"sha256": "f1e4f3c7d49476fa3b04b1a56f42368d15deec9dda574ce1a0dc9c5fc917a5aa",
+			"url": "assets/f1e4f3c7d49476fa3b04b1a56f42368d15deec9dda574ce1a0dc9c5fc917a5aa.pck"
 		},
 		"res://assets/journey/art-styles/pixel/pipes.webp": {
-			"bytes": 91464,
-			"sha256": "6a58311c860573e2ae181a87f8913f505cd88070f5e023c8cc040c3b786d1d74",
-			"url": "assets/6a58311c860573e2ae181a87f8913f505cd88070f5e023c8cc040c3b786d1d74.pck"
+			"bytes": 90792,
+			"sha256": "12acddf598fdf008f2c8a314982b837d705bb748c6f55d9eac07f59d54619da8",
+			"url": "assets/12acddf598fdf008f2c8a314982b837d705bb748c6f55d9eac07f59d54619da8.pck"
 		},
 		"res://assets/journey/art-styles/pixel/sets.webp": {
 			"bytes": 93604,
@@ -591,9 +736,9 @@
 			"url": "assets/178549eebecc68901d8aa815245a13e6bf8221c02a355c3ec5455f718cbe9c66.pck"
 		},
 		"res://assets/journey/art-styles/pixel/sudoku.webp": {
-			"bytes": 115564,
-			"sha256": "071a92cdf3ee7a6c23604999e25b6328b04a023378aef0cbf0e31d0f3bb1c0a3",
-			"url": "assets/071a92cdf3ee7a6c23604999e25b6328b04a023378aef0cbf0e31d0f3bb1c0a3.pck"
+			"bytes": 111532,
+			"sha256": "bf2e6a13460e48a9109321e730ab7b2d910e5aa265962f959266201e610be1fa",
+			"url": "assets/bf2e6a13460e48a9109321e730ab7b2d910e5aa265962f959266201e610be1fa.pck"
 		},
 		"res://assets/journey/art-styles/pixel/sumplete.webp": {
 			"bytes": 109708,
@@ -601,14 +746,14 @@
 			"url": "assets/009b7a5bc89f1cacf0500d5bbbce0fa5a86f9025393cfc8fdb1a4bf319d0d0ea.pck"
 		},
 		"res://assets/journey/art-styles/pixel/tents.webp": {
-			"bytes": 105288,
-			"sha256": "5d29d3ac096afe4b05c32b310a29e17962937812f90f8d6955410a1052e608e7",
-			"url": "assets/5d29d3ac096afe4b05c32b310a29e17962937812f90f8d6955410a1052e608e7.pck"
+			"bytes": 102952,
+			"sha256": "83f3c1d8a6b568e2999bbc3f6a2d39a2761a4550ff667ca8d2a18ea45254de17",
+			"url": "assets/83f3c1d8a6b568e2999bbc3f6a2d39a2761a4550ff667ca8d2a18ea45254de17.pck"
 		},
 		"res://assets/journey/art-styles/pixel/thermometers.webp": {
-			"bytes": 88212,
-			"sha256": "5bd0c5cd13e2bb558132f346fa5ca52b05e448bb5fb6ed0e2c90bc7101b544b0",
-			"url": "assets/5bd0c5cd13e2bb558132f346fa5ca52b05e448bb5fb6ed0e2c90bc7101b544b0.pck"
+			"bytes": 89332,
+			"sha256": "cf4f06940db1aff2c280d2c5c175791d434c90b6f3322dc14e976a6e2d43018f",
+			"url": "assets/cf4f06940db1aff2c280d2c5c175791d434c90b6f3322dc14e976a6e2d43018f.pck"
 		},
 		"res://assets/journey/art-styles/pixel/truffles.webp": {
 			"bytes": 89932,
@@ -676,9 +821,9 @@
 			"url": "assets/829e7021bee744ba5237bdc05ea02dc8e5bcdc27ba0a732124d0e1e13d4ac5ae.pck"
 		},
 		"res://assets/journey/art-styles/print/mosaic.webp": {
-			"bytes": 96236,
-			"sha256": "ce8f68b6785761c129fc5e3be12aa0f77f169ecf7f22fbf0c898e3c5450e5a99",
-			"url": "assets/ce8f68b6785761c129fc5e3be12aa0f77f169ecf7f22fbf0c898e3c5450e5a99.pck"
+			"bytes": 95276,
+			"sha256": "2e308bd8481f3ec7bcf90cb48f8967f43cf8d79f6fe5f054b00be70323e384ae",
+			"url": "assets/2e308bd8481f3ec7bcf90cb48f8967f43cf8d79f6fe5f054b00be70323e384ae.pck"
 		},
 		"res://assets/journey/art-styles/print/nonogram.webp": {
 			"bytes": 124588,
@@ -691,9 +836,9 @@
 			"url": "assets/e2257489a71670eab186154e475bb57fb6a53b87c18991f296d99d02da74dbf4.pck"
 		},
 		"res://assets/journey/art-styles/print/pipes.webp": {
-			"bytes": 135688,
-			"sha256": "aa3318e2935c1cfd8035c89242d01b97474c00eab0ded8aab2767cc0fc9eac98",
-			"url": "assets/aa3318e2935c1cfd8035c89242d01b97474c00eab0ded8aab2767cc0fc9eac98.pck"
+			"bytes": 124008,
+			"sha256": "6202cb417e97c21a8d491596e59d0ae0a72715b899f671e4d4cf2901fd7b7a8d",
+			"url": "assets/6202cb417e97c21a8d491596e59d0ae0a72715b899f671e4d4cf2901fd7b7a8d.pck"
 		},
 		"res://assets/journey/art-styles/print/sets.webp": {
 			"bytes": 117924,
