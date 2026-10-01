@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Feedback · Helena</title>
+  <link rel="stylesheet" href="./review-9d38ccafbd8a2ee6.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><a class="brand" href="../">HELENA</a><h1>Feedback inbox</h1><p>Small notes. A better game.</p></div>
+      <div class="account"><span id="account-label"></span><button id="sign-out" hidden>Sign out</button></div>
+    </header>
+    <section id="login-panel" class="panel">
+      <h2>Your playtest notes, in one place</h2>
+      <p>Sign in with the owner account to read feedback and choose what to work on.</p>
+      <button id="sign-in" class="primary">Sign in with Google</button>
+    </section>
+    <p id="status" role="status" aria-live="polite">Connecting…</p>
+    <section id="inbox" hidden aria-label="Feedback review">
+      <div class="toolbar">
+        <label>Status<select id="status-filter"><option value="new">New</option><option value="approved">Approved</option><option value="done">Done</option><option value="declined">Declined</option><option value="all">All feedback</option></select></label>
+        <label>Game<select id="game-filter"><option value="all">All games</option></select></label>
+        <label class="search">Search<input id="search" type="search" placeholder="Feedback, mode or seed"></label>
+        <button id="refresh">Refresh</button>
+      </div>
+      <div class="queue-bar"><p>Only <strong>Approved</strong> notes go into the work queue.</p><button id="copy-queue">Copy approved for Codex</button></div>
+      <div class="list-heading"><h2 id="list-title">New feedback</h2><span id="count"></span></div>
+      <div id="feedback-list" aria-live="polite"></div>
+      <button id="load-more" hidden>Load more</button>
+    </section>
+    <footer>Feedback includes the exact game, mode, difficulty and puzzle seed. Approval queues a request; it does not publish a game update.</footer>
+  </main>
+  <script type="module" src="./review-5b89d57c2a068f9a.mjs"></script>
+</body>
+</html>
